@@ -1,0 +1,10 @@
+; gedit GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<Actions>/LineToolsWindowHelper/SelectLine" "<Primary>l")
+; (gtk_accel_path "<Actions>/LineToolsWindowHelper/AddSemicolon" "<Primary>semicolon")
+; (gtk_accel_path "<Actions>/LineToolsWindowHelper/SelectText" "<Primary>j")
+; (gtk_accel_path "<Actions>/LineToolsWindowHelper/ToggleIndentedComment" "<Primary><Shift>r")
+; (gtk_accel_path "<Actions>/LineToolsWindowHelper/SelectWord" "<Primary>m")
+; (gtk_accel_path "<Actions>/LineToolsWindowHelper/ToggleComment" "<Primary>r")
+; (gtk_accel_path "<Actions>/LineToolsWindowHelper/DuplicateLine" "<Primary>b")

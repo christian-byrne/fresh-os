@@ -1,0 +1,74 @@
+<style-scheme id="twilight" _name="Neon City" version="1.0">
+<author>Christian Byrne</author>
+<_description>
+Goes with the Neon City Desktop Record (from Excel Drive)
+</_description>
+<!-- Colors -->
+<color name="off_white" value="#CED4FC"/>
+<color name="mystic_light_pink" value="#F92471"/>
+<color name="black_navy_car" value="#01151E"/>
+<color name="tinted_grey" value="#879AE7"/>
+<color name="dark_grey" value="#665f57"/>
+<color name="med_grey" value="#888888"/>
+<color name="light_grey" value="#0268FF"/>
+<color name="coca-cola" value="#AA1B4D"/>
+<color name="washed_orange" value="#606EDB"/>
+<color name="faded_violet" value="#B0C7BD"/>
+<color name="faded_cornwall" value="#B8EBD0"/>
+<color name="pink_sandstone" value="#512B3C"/>
+<color name="steelblue3" value="#4F6EEE"/>
+<color name="light_brown" value="#ACBFFC"/>
+<color name="super_faded_orange" value="#9DA3F4"/>
+<color name="dark_maroon" value="#D4D6FF"/>
+<color name="yellow" value="#FE3883"/>
+<!-- Global Settings -->
+<style name="text" foreground="off_white" background="black_navy_car"/>
+<style name="cursor" foreground="off_white"/>
+<style name="current-line" background="tinted_grey"/>
+<style name="line-numbers" foreground="light_grey" background="black_navy_car"/>
+<!-- Bracket Matching -->
+<style name="bracket-match" background="steelblue3"/>
+<style name="bracket-mismatch" background="dark_maroon" bold="true"/>
+<style name="search-match" foreground="off_white" background="steelblue3"/>
+<!-- Comments -->
+<style name="def:comment" foreground="mystic_light_pink" italic="true"/>
+<style name="def:shebang" foreground="coca_cola" italic="true"/>
+<style name="def:doc-comment-element" foreground="steelblue3"/>
+<!-- Constants and Variables-->
+<style name="def:constant" foreground="faded_cornwall"/>
+<style name="def:string" foreground="coca_cola"/>
+<style name="def:special-char" foreground="faded_cornwall"/>
+<style name="def:special-constant" foreground="washed_orange" bold="true"/>
+<style name="def:number" foreground="pink_sandstone"/>
+<style name="def:floating-point" foreground="pink_sandstone"/>
+<style name="def:keyword" foreground="washed_orange" bold="true"/>
+<style name="def:builtin" foreground="washed_orange" bold="true"/>
+<style name="def:variable" foreground="faded_cornwall"/>
+<!-- Identifiers -->
+<style name="def:identifier" foreground="faded_cornwall"/>
+<!-- Statements -->
+<style name="def:statement" foreground="washed_orange"/>
+<!-- Types -->
+<style name="def:type" foreground="faded_violet"/>
+<!-- Others -->
+<style name="def:error" foreground="off_white" background="dark_maroon" bold="true"/>
+<style name="def:note" foreground="yellow" bold="true"/>
+<style name="def:net-address-in-comment" foreground="steelblue3" italic="false" underline="true"/>
+<style name="def:preprocessor" foreground="light_grey"/>
+<!-- Unknown? -->
+<style name="def:specials" background="faded_cornwall"/>
+<style name="def:boolean" foreground="pink_sandstone"/>
+<!-- C Styles -->
+<style name="c:preprocessor" map-to="def:special-char"/>
+<!-- Diff Styles -->
+<style name="diff:ignore" foreground="med_grey"/>
+<!-- Ruby Styles -->
+<style name="ruby:module-handler" foreground="washed_orange"/>
+<style name="ruby:symbol" foreground="pink_sandstone"/>
+<style name="ruby:regex" foreground="super_faded_orange"/>
+<!-- SH Styles -->
+<style name="sh:others" map-to="text"/>
+<!-- XML Styles -->
+<style name="xml:attribute-name" foreground="washed_orange"/>
+<style name="xml:element-name" foreground="faded_cornwall"/>
+</style-scheme>

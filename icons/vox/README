@@ -1,0 +1,45 @@
+This is a CursorXP theme that I converted to a XFree86 4.2.99-4.3.x cursor 
+theme, using a slightly modified SD2XC by ewindisch.
+
+This theme *does* include the symbolic links that you need to make it work 
+with QT/KDE.  Most of the common icons are included.
+
+
+============= 
+
+
+To Install
+-------------------
+As root:
+Move untarred "vox" directory to /usr/share/icons/vox
+
+Edit /usr/share/icons/default/index.theme to be:
+
+[Icon Theme]
+Inherits=vox
+
+-------------------
+
+As user:
+Add to ~/.Xdefaults and/or ~/.Xresources the following:
+ 
+Xcursor.theme: vox
+  
+Move untarred "vox" directory to: 
+~/.icons/vox
+
+
+These install instructions work for me on Mandrake 9.1 RC1.  I am not 
+sure if other distrubtions are following these same configuration locations.  
+Could people using other distributions post your successes or failures at 
+using these locations.  It would be nice to be sure this is a standard.
+
+
+===================
+
+
+These cursors where designed by:
+
+Mike Bryant <mike@skinsmith.com>
+
+All rights belong to him.

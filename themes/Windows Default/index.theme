@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Windows Default
+Name[es]=Standard Windows
+Comment=Microsoft Windows 95
+Version=v1.0
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Windows 95
+MetacityTheme=Windows 95
+ButtonLayout=:minimize,maximize,close

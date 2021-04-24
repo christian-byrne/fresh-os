@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Shiragami Youko - Jitsu wa watashi wa
+Comment=Creado por Kitsune_shin21
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Shiragami Youko - Jitsu wa watashi wa
+MetacityTheme=Shiragami Youko - Jitsu wa watashi wa
+IconTheme=Qogir-manjaro
+CursorTheme=Qogir-manjaro
+ButtonLayout=menu:minimize,maximize,close

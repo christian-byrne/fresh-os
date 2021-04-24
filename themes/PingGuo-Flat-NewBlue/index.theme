@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=PingGuo-Flat-NewBlue
+Comment=default GTK theme for LINUX
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=PingGuo-Flat-NewBlue
+MetacityTheme=PingGuo-Flat-NewBlue
+IconTheme=PingGuo-Flat-NewBlue
+CursorTheme=PingGuo-Flat-NewBlue
+ButtonLayout=menu:minimize,maximize,close

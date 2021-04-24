@@ -1,0 +1,16 @@
+#!/bin/sh
+# Xsetup for Red Hat Linux 6.0
+# Copyright (c) 1999 Red Hat Software, Inc.
+
+pidof -s kdm > /dev/null 2>&1
+if [ $? -eq 0 -a -x /usr/bin/kdmdesktop ]; then
+  /usr/bin/kdmdesktop
+else
+  /usr/X11R6/bin/xsetroot -solid "#314f4f"
+fi
+
+# only set the background if the xsri program is installed
+if [ -x /usr/bin/xsri ]; then
+    /usr/bin/xsri  -root \
+	/etc/X11/gdm/Won-Ton-Soup-2.jpg
+fi

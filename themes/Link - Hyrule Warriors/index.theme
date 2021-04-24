@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Link - Hyrule Warriors
+Comment=Creado por Kitsune_shin21
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Link - Hyrule Warriors
+MetacityTheme=Link - Hyrule Warriors
+IconTheme=Qogir-manjaro
+CursorTheme=Qogir-manjaro
+ButtonLayout=menu:minimize,maximize,close

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=cool-retro-term
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=retro term
+Name=retro term
+Comment[en_US]=
+Comment=

@@ -1,0 +1,76 @@
+Hi!
+
+I'm Stefano. ( stefanux @ libero . it )
+
+01 Mar 2003
+
+
+License:	GPL
+Test:
+XFree 4.2.1
+XFree 4.3	(whith and without native cursors)
+
+
+Here is my patch Info - Readme:
+
+
+./qtpatch				Where to find my files
+./qtpatch/kdelibs			KDE 3.1 Patch
+./qtpatch/kdelibs/kcursor.cpp		Enable the two Cursor
+						working
+						HandPointer
+./qtpatch/qt311				QT 3.1.1 Patch
+./qtpatch/qt311/qnamespace.h			HandPointer declaration
+./qtpatch/qt311/qcursor.cpp				"
+./qtpatch/qt311/qcursor_x11.cpp			Enable 2 cursor
+./patch.txt				This File
+./bexos.bdf				My BeOs inspired Cursos
+./bexos.jpg				Scren shots
+./readme.txt				Main Readme
+
+Info:
+	- QT Patch
+		* Added the Cursors
+	- KDE Patch
+		* Added the Cursors
+		* Remove internals !
+
+Diff:
+
+diff qnamespace.h qt-x11-free-3.1.1/src/kernel/qnamespace.h
+725,726c725
+<       WorkingCursor,
+<       LastCursor      = WorkingCursor,
+---
+>       LastCursor      = WhatsThisCursor,
+750d748
+<     QT_STATIC_CONST QCursor & workingCursor;  // arrow with a question mark
+
+diff qcursor.cpp qt-x11-free-3.1.1/src/kernel/qcursor.cpp 105c105
+<     \value WorkingCursor - an arrow with a clock
+---
+>     \value BitmapCursor
+
+diff qcursor_x11.cpp qt-x11-free-3.1.1/src/kernel/qcursor_x11.cpp
+52,53d51
+< #define QT_USE_APPROXIMATE_CURSORS
+<
+123d120
+< QT_STATIC_CONST_IMPL QCursor & Qt::workingCursor = cursorTable[16];
+729,731d725
+<       case WorkingCursor:
+<           sh = XC_clock;
+<           break;
+
+
+kcursor.cpp:
+QCursor KCursor::handCursor()
+{
+    return Qt::pointingHandCursor;
+}
+
+
+QCursor KCursor::workingCursor()
+{
+    return Qt::workingCursor;
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"
+[
+ <!ATTLIST svg
+  xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink">
+]>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   id="svg1"
+   sodipodi:version="0.28"
+   width="640pt"
+   height="640pt"
+   sodipodi:docbase="/home/uga/MisDocumentos/Cursors/"
+   sodipodi:docname="/home/uga/MisDocumentos/Cursors/text.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient8">
+      <stop
+         style="stop-color:#000;stop-opacity:1;"
+         offset="0"
+         id="stop9" />
+      <stop
+         style="stop-color:#fff;stop-opacity:1;"
+         offset="1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient8"
+       id="linearGradient11" />
+    <linearGradient
+       xlink:href="#linearGradient8"
+       id="linearGradient12" />
+    <radialGradient
+       xlink:href="#linearGradient8"
+       id="radialGradient31"
+       cx="0.5"
+       cy="0.5"
+       fx="0.5"
+       fy="0.5"
+       r="0.5"
+       gradientUnits="objectBoundingBox"
+       gradientTransform="translate(-1.55528e-08,6.44504e-10)"
+       spreadMethod="pad" />
+  </defs>
+  <sodipodi:namedview
+     id="base" />
+  <path
+     style="fill:#ff0000;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:0.789474;"
+     d="M 56.2942 640.971 L 125.11 750.672 L 368.12 621.002 L 354.537 328.936 L 583.922 148.881 L 306.317 276.091 L 287.282 587.51 L 56.2942 640.971 z "
+     id="path33"
+     transform="matrix(0.824453,0,0,1.04688,-16.4118,-95.859)"
+     sodipodi:nodetypes="cccccccc" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#787878;stroke-opacity:1;stroke-width:26.75;stroke-linejoin:round;stroke-linecap:butt;fill-opacity:0.570175;stroke-dasharray:none;"
+     d="M 107.5 115 C 107.5 115 555 115 555 115 C 555 115 555 205 555 205 C 555 205 385 205 385 205 C 385 205 387.5 650 385 650 C 382.5 650 555 647.5 555 647.5 C 555 647.5 555 732.5 555 732.5 C 555 732.5 105 732.5 105 732.5 C 105 732.5 105 647.5 105 647.5 C 105 647.5 270 645 270 645 C 270 645 270 200 270 200 C 270 200 107.5 200 107.5 200 C 107.5 200 107.5 115 107.5 115 z "
+     id="path31"
+     sodipodi:nodetypes="ccccccccccccc"
+     transform="matrix(0.4,0,0,0.919028,125.5,-23.1883)" />
+</svg>

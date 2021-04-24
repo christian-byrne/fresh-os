@@ -1,0 +1,15 @@
+Predefined colors for Simply Retro XFCE theme
+==============================================
+
+Colors are in #RRGGBB format.
+
+     COLORS
+================
+black  = #030303
+blue   = #4285f4
+red    = #ea4335
+yellow = #fbbc05		
+green  = #34a853
+orange = #df5e0b
+violet = #7041db
+

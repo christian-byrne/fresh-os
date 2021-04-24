@@ -1,0 +1,71 @@
+# tEmacs
+# Auteurs - Authors : 	Philippe ROY <ph_roy@yahoo.com> + Yeupou <yeupou@altern.org>
+# Michal Suchanek <hramrach@centrum.cz> : slight modification to selection to work with gtk 2.0
+
+# #2f4f4f : darkgreen
+# #366462 : "darkgreen clair"
+# #172a29 : "darkgreen foncé"
+
+# #f5deb3 : weat
+# #d2b48c : tan
+
+# #298952 : "vert très clair"
+# #526929 : "olive"
+# #6a997b : "vert clair"
+
+# #3b5654 : gris
+
+# #ffc2cd : "rose"
+# #d5a2ab : "rose foncé"
+# #de71d5 : "mauve clair"
+
+style "default"
+{
+
+  GtkWidget::link-color = "#f5cfb3"
+  GtkWidget::visited-link-color = "#f5deb3"
+
+  # Pidgin
+  GtkIMHtml::hyperlink-color = "#f5cfb3"
+  GtkIMHtml::hyperlink-visited-color =  "#f5deb3"
+  GtkIMHtml::hyperlink-prelight-color = "#f5cfb3"
+
+  # Evolution
+  GtkHTML::link_color = "#f5cfb3"
+  GtkHTML::vlink_color = "#f5deb3"
+  GtkHTML::cite_color = "#f5cfb3"
+
+
+# font = "adobe-helvetica-normal-r-normal--12-*-*-*-*-*-*-*"
+# base, text, bg, fg are possible
+
+  fg[NORMAL]		= "#f5deb3"
+  text[NORMAL]		= "#f5deb3"
+  bg[NORMAL]		= "#2f4f4f"
+  base[NORMAL]		= "#366462"
+
+  fg[INSENSITIVE]	= "#3b5654"
+  bg[INSENSITIVE]	= "#3b5654"
+  base[INSENSITIVE]	= "#3b5654"
+
+  fg[PRELIGHT]		= "#f5deb3"
+  text[PRELIGHT]	= "#f5deb3"
+  bg[PRELIGHT]		= "#526929"
+  base[PRELIGHT]	= "#366462"
+
+  fg[SELECTED]		= "#f5deb3"
+  text[SELECTED]		= "#f5deb3"
+  base[SELECTED]		= "#2a4747"
+  bg[SELECTED]		= "#2a4747"
+
+  fg[ACTIVE]		= "#f5cfb3"
+  text[ACTIVE]	= "#f5cfb3"
+  bg[ACTIVE]		= "#2f4f4f"
+  base[ACTIVE]	= "#2f4f4f" 
+
+}
+
+
+widget_class "*" style "default"
+
+gtk-icon-theme-name="Tango"

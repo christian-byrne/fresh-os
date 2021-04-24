@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=terminal
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_US]=terminal
+Name=terminal
+Comment[en_US]=
+Comment=

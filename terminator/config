@@ -1,0 +1,1820 @@
+[global_config]
+  title_transmit_bg_color = "#04724d"
+  inactive_color_offset = 0.9444444444444444
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+[keybindings]
+  zoom_in = <Primary>equal
+  new_tab = <Primary>t
+  go_up = <Alt>k
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  split_horiz = <Primary><Shift>h
+  split_vert = <Primary><Shift>j
+  close_term = <Primary>w
+  resize_up = <Alt>s
+  resize_down = <Alt>d
+  resize_left = <Alt>a
+  resize_right = <Alt>f
+  full_screen = <Primary><Shift>f
+  broadcast_off = <Alt>e
+  broadcast_group = <Alt>w
+  broadcast_all = <Alt>q
+  edit_tab_title = F2
+  edit_terminal_title = <Primary><Shift>r
+  layout_launcher = <Primary><Shift>l
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#002b36"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#34e2e2"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#a1eeff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    copy_on_selection = True
+  [[Neon City]]
+    background_color = "#01151e"
+    background_darkness = 0.71
+    background_type = transparent
+    cursor_color = "#da4c79"
+    cursor_color_fg = False
+    font = Ubuntu Mono 13
+    foreground_color = "#b0c7bd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#ced4fc:#01151e:#665f57:#0268ff:#606edb:#b8ebd0:#acbffc:#d4d6ff:#f92471:#879ae7:#888888:#aa1b4d:#729fcf:#4f6eee:#9da3f4:#fe3883"
+    use_system_font = False
+  [[nicce]]
+    allow_bold = False
+    background_color = "#f8f1ff"
+    cursor_color = "#048a81"
+    cursor_color_fg = False
+    font = Ubuntu Mono 14
+    foreground_color = "#1b998b"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#1b998b:#decdf5:#656176:#656176:#3465a4:#534d56:#8a89c0:#048a81:#048a81:#decdf5:#656176:#656176:#729fcf:#534d56:#8a89c0:#34e2e2"
+    use_system_font = False
+  [[nicce_inverse]]
+    icon_bell = False
+    background_color = "#534d56"
+    cursor_color = "#54c6eb"
+    cursor_color_fg = False
+    foreground_color = "#f8f1ff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#048a81:#8a89c0:#aaaaaa:#8a89c0:#06989a:#75507b:#06989a:#d3d7cf:#34e2e2:#f8f1ff:#534d56:#048a81:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+  [[bayani]]
+    icon_bell = False
+    background_color = "#048a81"
+    cursor_color = "#f8f1ff"
+    cursor_color_fg = False
+    foreground_color = "#f9e7e7"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#cda2ab:#06d6a0:#8a89c0:#f8f1ff:#06d6a0:#75507b:#06989a:#d3d7cf:#292f36:#54c6eb:#8a89c0:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+  [[deception]]
+    background_darkness = 0.52
+    background_type = transparent
+    cursor_color = "#ffffff"
+    cursor_color_fg = False
+    foreground_color = "#b8dbd9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#2e3436:#000000:#f4f4f9:#04724d:#b8dbd9:#b88c9e:#ff5154:#ef959c:#555753:#b8dbd9:#f4f4f9:#04724d:#aaaaaa:#ad7fa8:#be92a2:#ef959c"
+  [[deception_inverse]]
+    background_color = "#f4f4f9"
+    background_darkness = 0.47
+    background_type = transparent
+    cursor_color = "#04724d"
+    cursor_color_fg = False
+    foreground_color = "#000000"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#ef959c:#ff5154:#b8dbd9:#be92a2:#3465a4:#b8dbd9:#06989a:#d3d7cf:#04724d:#ef2929:#04724d:#fce94f:#ff5154:#586f7c:#34e2e2:#eeeeec"
+  [[deception2]]
+    background_color = "#04724d"
+    background_darkness = 0.47
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#f4f4f9"
+    show_titlebar = False
+    scrollbar_position = hidden
+  [[deception3]]
+    background_color = "#586f7c"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#f4f4f9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#04724d:#04724d:#ef959c:#be92a2:#b8dbd9:#aaaaaa:#b8dbd9:#2e3436:#04724d:#04724d:#ef959c:#be92a2:#f4f4f9:#ad7fa8:#ff5154:#06989a"
+  [[live means die 2]]
+    visible_bell = True
+    icon_bell = False
+    background_color = "#04724d"
+    cursor_shape = ibeam
+    cursor_color = "#f56476"
+    cursor_color_fg = False
+    font = Unifont Medium 18
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#f56476:#ffffff:#ffffff:#379634:#ffffff:#f996a0:#64a990:#ffffff:#ffffff:#8e3b46:#8ae234:#bf4040:#f67282:#ad7fa8:#308b6c:#ffffff"
+    use_system_font = False
+  [[solarized dark]]
+    background_color = "#002b36"
+    background_darkness = 0.94
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[gruvbox dark]]
+    background_color = "#002b36"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#839496"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[system theme]]
+    cursor_color = "#aaaaaa"
+    use_system_font = False
+    use_theme_colors = True
+  [[ambience]]
+    background_color = "#300a24"
+    background_darkness = 0.96
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#f3befd"
+    cursor_color_fg = False
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+  [[solarized - turqouise]]
+    visible_bell = True
+    icon_bell = False
+    background_color = "#5e9a8f"
+    background_darkness = 0.91
+    cursor_shape = underline
+    cursor_color = "#94fabf"
+    cursor_color_fg = False
+    foreground_color = "#2e3436"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#bab6fc:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#94fabf:#eeeeec"
+    use_system_font = False
+  [[solarized darkv2]]
+    allow_bold = False
+    background_color = "#18343b"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#babdb6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[solarized darkv3]]
+    allow_bold = False
+    background_color = "#445662"
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[live means die]]
+    cursor_color = "#aaaaaa"
+  [[solarized - silk]]
+    allow_bold = False
+    background_color = "#f6dfd3"
+    cursor_blink = False
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    foreground_color = "#5e9a8f"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[solarized - lavendar]]
+    allow_bold = False
+    background_color = "#bab6fc"
+    background_darkness = 0.96
+    background_type = transparent
+    cursor_blink = False
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    use_system_font = False
+  [[solarized - dark salmon]]
+    allow_bold = False
+    background_color = "#d09a7b"
+    background_darkness = 0.96
+    background_type = transparent
+    cursor_blink = False
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[AdventureTime]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1f1d45"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#efbf38"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#f8dcc0"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
+    copy_on_selection = True
+  [[Aurora]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#0f1c21"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#00485a"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#80b6ad"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#0f1c21:#046655:#04c975:#b5bd68:#308891:#94a5bc:#8abeb7:#80b6ad:#0f1c21:#046655:#04c975:#b5bd68:#308891:#94a5bc:#8abeb7:#80b6ad"
+    copy_on_selection = True
+  [[Batman]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1b1d1e"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#fcef0c"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#6f6f6f"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#1b1d1e:#e6dc44:#c8be46:#f4fd22:#737174:#747271:#62605f:#c6c5bf:#505354:#fff78e:#fff27d:#feed6c:#919495:#9a9a9d:#a3a3a6:#dadbd6"
+    copy_on_selection = True
+  [[Bim]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#012849"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#c4d0de"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#a9bed8"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2c2423:#f557a0:#a9ee55:#f5a255:#5ea2ec:#a957ec:#5eeea0:#918988:#918988:#f579b2:#bbee78:#f5b378:#81b3ec:#bb79ec:#81eeb2:#f5eeec"
+    copy_on_selection = True
+  [[Borland]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#0000a4"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#ffa560"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ffff4e"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#4f4f4f:#ff6c60:#a8ff60:#ffffb6:#96cbfe:#ff73fd:#c6c5fe:#eeeeee:#7c7c7c:#ffb6b0:#ceffac:#ffffcc:#b5dcff:#ff9cfe:#dfdffe:#ffffff"
+    copy_on_selection = True
+  [[C64]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#40318d"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#7869c4"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#7869c4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#090300:#883932:#55a049:#bfce72:#40318d:#8b3f96:#67b6bd:#ffffff:#000000:#883932:#55a049:#bfce72:#40318d:#8b3f96:#67b6bd:#f7f7f7"
+    copy_on_selection = True
+  [[Chalkby]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1f2d2d"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#ffffff"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2e3436:#ffb0b0:#c8ff9b:#fffca4:#6f9ceb:#9395d3:#bdeaff:#d3d7cf:#555753:#ffb0b0:#c8ff9b:#fffca4:#6f9ceb:#9395d3:#bdeaff:#eeeeec"
+    copy_on_selection = True
+  [[Chesterish]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#293340"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#2c85f7"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#cdd2e9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#293340:#e17e85:#61ba86:#ffec8e:#4cb2ff:#be86e3:#2dced0:#cdd2e9:#546386:#e17e85:#61ba86:#ffec8e:#4cb2ff:#be86e3:#2dced0:#cdd2e9"
+    copy_on_selection = True
+  [[CLRS]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#ffffff"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#6fd3fc"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#262626"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#f8282a:#328a5d:#fa701d:#135cd0:#9f00bd:#33c3c1:#b3b3b3:#555753:#fb0416:#2cc631:#fdd727:#1670ff:#e900b0:#3ad5ce:#eeeeec"
+    copy_on_selection = True
+  [[Dark Pastel]]
+    urgent_bell = True
+    icon_bell = False
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#bbbbbb:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    copy_on_selection = True
+  [[Dracula]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1e1f29"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    copy_on_selection = True
+  [[Duotone Dark]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1f1d27"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#ff9839"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#b7a1ff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#1f1d27:#d9393e:#2dcd73:#d9b76e:#ffc284:#de8d40:#2488ff:#b7a1ff:#353147:#d9393e:#2dcd73:#d9b76e:#ffc284:#de8d40:#2488ff:#eae5ff"
+    copy_on_selection = True
+  [[Github]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#f4f4f4"
+    background_darkness = 0.39
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#3f3f3f"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#3e3e3e"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#3e3e3e:#970b16:#07962a:#f8eec7:#003e8a:#e94691:#89d1ec:#ffffff:#666666:#de0000:#87d5a2:#f1d007:#2e6cba:#ffa29f:#1cfafe:#ffffff"
+    copy_on_selection = True
+  [[Grape]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#171423"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#a288f7"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#9f9fa1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2d283f:#ed2261:#1fa91b:#8ddc20:#487df4:#8d35c9:#3bdeed:#9e9ea0:#59516a:#f0729a:#53aa5e:#b2dc87:#a9bcec:#ad81c2:#9de3eb:#a288f7"
+    copy_on_selection = True
+  [[Grass]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#13773d"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#8c2800"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#fff0a5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#bb0000:#00bb00:#e7b000:#0000a3:#950062:#00bbbb:#bbbbbb:#555555:#bb0000:#00bb00:#e7b000:#0000bb:#ff55ff:#55ffff:#ffffff"
+    copy_on_selection = True
+  [[Hardcore]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#121212"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#a0a0a0"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#1b1d1e:#f92672:#a6e22e:#fd971f:#66d9ef:#9e6ffe:#5e7175:#ccccc6:#505354:#ff669d:#beed5f:#e6db74:#66d9ef:#9e6ffe:#a3babf:#f8f8f2"
+    copy_on_selection = True
+  [[Harper]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#010101"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#a8a49d"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#a8a49d"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#010101:#f8b63f:#7fb5e1:#d6da25:#489e48:#b296c6:#f5bfd7:#a8a49d:#726e6a:#f8b63f:#7fb5e1:#d6da25:#489e48:#b296c6:#f5bfd7:#fefbea"
+    copy_on_selection = True
+  [[Hemisu dark]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#002b36"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#BAFFAA"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#FFFFFF"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#444444:#FF0054:#B1D630:#9D895E:#67BEE3:#B576BC:#569A9F:#EDEDED:#777777:#D65E75:#BAFFAA:#ECE1C8:#9FD3E5:#DEB3DF:#B6E0E5:#FFFFFF"
+    copy_on_selection = True
+  [[Hemisu light]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#EFEFEF"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#FF0054"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#444444"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#777777:#FF0055:#739100:#503D15:#538091:#5B345E:#538091:#999999:#999999:#D65E76:#9CC700:#947555:#9DB3CD:#A184A4:#85B2AA:#BABABA"
+    copy_on_selection = True
+  [[Horizon]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1c1e26"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#e95379"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#bbbbbb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#e9436f:#f9cbbe:#ffaf87:#27d796:#6c6f93:#fdf0ed:#fadad1:#b877db:#e95379:#fadad1:#fac29a:#09f7a0:#6c6f8a:#ffffff:#eddad1:#b88adb"
+    copy_on_selection = True
+  [[IR_Black]]
+    urgent_bell = True
+    icon_bell = False
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#808080"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#f1f1f1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#4f4f4f:#fa6c60:#a8ff60:#fffeb7:#96cafe:#fa73fd:#c6c5fe:#efedef:#7b7b7b:#fcb6b0:#cfffab:#ffffcc:#b5dcff:#fb9cfe:#e0e0fe:#ffffff"
+    copy_on_selection = True
+  [[Juicy]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#212121"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#fcfcfc"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#fcfcfc"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2e3436:#ff0945:#1aff81:#fff64a:#2bf1ff:#7b68ee:#98f4ff:#d3d7cf:#555753:#ff0945:#1aff81:#fff64a:#2bf1ff:#7b68ee:#98f4ff:#eeeeec"
+    copy_on_selection = True
+  [[Lavandula]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#050014"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#8c91fa"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#736e7d"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#230046:#7d1625:#337e6f:#7f6f49:#4f4a7f:#5a3f7f:#58777f:#736e7d:#372d46:#e05167:#52e0c4:#e0c386:#8e87e0:#a776e0:#9ad4e0:#8c91fa"
+    copy_on_selection = True
+  [[Man Page]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#fef49c"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#7f7f7f"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#000000"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#cc0000:#00a600:#999900:#0000b2:#b200b2:#00a6b2:#cccccc:#666666:#e50000:#00d900:#e5e500:#0000ff:#e500e5:#00e5e5:#e5e5e5"
+    copy_on_selection = True
+  [[Material]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#eaeaea"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#16afca"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#232322"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
+    copy_on_selection = True
+  [[Material-Palenight]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#292d3e"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#ffcc00"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#a6accd"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2e3436:#ff5370:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d3d7cf:#555753:#f07178:#c3e88d:#f78c6c:#729fcf:#bb80b3:#89ddff:#eeeeec"
+    copy_on_selection = True
+  [[Mathias]]
+    urgent_bell = True
+    icon_bell = False
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#bbbbbb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#e52222:#a6e32d:#fc951e:#c48dff:#fa2573:#67d9f0:#f2f2f2:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    copy_on_selection = True
+  [[Miu]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#0d1926"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#d7dee4"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#d9e6f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#b87a7a:#7ab87a:#b8b87a:#7a7ab8:#b87ab8:#7ab8b8:#d9d9d9:#262626:#dbbdbd:#bddbbd:#dbdbbd:#bdbddb:#dbbddb:#bddbdb:#ffffff"
+    copy_on_selection = True
+  [[Molokai]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#121212"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#bbbbbb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#121212:#fa2573:#98e123:#dfd460:#1080d0:#8700ff:#43a8d0:#bbbbbb:#555555:#f6669d:#b1e05f:#fff26d:#00afff:#af87ff:#51ceff:#ffffff"
+    copy_on_selection = True
+  [[Monokai dark]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#272822"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#ffffff"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#f8f8f2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#75715e:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#2aa198:#f9f8f5:#272822:#f92672:#a6e22e:#f4bf75:#66d9ef:#ae81ff:#2aa198:#f9f8f5"
+    copy_on_selection = True
+  [[Monokai Soda]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1a1a1a"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#f6f7ec"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#c4c5b5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#1a1a1a:#f4005f:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef"
+    copy_on_selection = True
+  [[Monokai Vivid]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#121212"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#fb0007"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#f9f9f9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#121212:#fa2934:#98e123:#fff30a:#0443ff:#f800f8:#01b6ed:#ffffff:#838383:#f6669d:#b1e05f:#fff26d:#0443ff:#f200f6:#51ceff:#ffffff"
+    copy_on_selection = True
+  [[Nebula]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#23262e"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#00e8c6"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2e3436:#ff007a:#84ff39:#f3d56e:#7cb7ff:#c74ded:#00e8c6:#d3d7cf:#555753:#ff007a:#84ff39:#f3d56e:#7cb7ff:#c74ded:#00e8c6:#eeeeec"
+    copy_on_selection = True
+  [[Night Owl]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#011627"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#80a4c2"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#d6deeb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2e3436:#ef5350:#80cbc4:#ffeb95:#82aaff:#c792ea:#addb67:#d3d7cf:#555753:#ef5350:#80cbc4:#ffeb95:#82aaff:#c792ea:#addb67:#eeeeec"
+    copy_on_selection = True
+  [[NightLion v1]]
+    urgent_bell = True
+    icon_bell = False
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#bbbbbb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#4c4c4c:#bb0000:#5fde8f:#f3f167:#276bd8:#bb00bb:#00dadf:#bbbbbb:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    copy_on_selection = True
+  [[NightLion v2]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#171717"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#bbbbbb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#4c4c4c:#bb0000:#04f623:#f3f167:#64d0f0:#ce6fdb:#00dadf:#bbbbbb:#555555:#ff5555:#7df71d:#ffff55:#62cbe8:#ff9bf5:#00ccd8:#ffffff"
+    copy_on_selection = True
+  [[Nord]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#2E3440"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#D8DEE9"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#D8DEE9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#3B4252:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#88C0D0:#E5E9F0:#4C566A:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#8FBCBB:#ECEFF4"
+    copy_on_selection = True
+  [[Ocean]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#224fbc"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#7f7f7f"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#990000:#00a600:#999900:#0000b2:#b200b2:#00a6b2:#bfbfbf:#666666:#e50000:#00d900:#e5e500:#0000ff:#e500e5:#00e5e5:#e5e5e5"
+    copy_on_selection = True
+  [[Panda]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#292a2b"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#f0eeee"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#e6e6e6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#676b79:#ff2c6d:#19f9d8:#ffb86c:#45a9f9:#b084eb:#6fc1ff:#d3d7cf:#676b79:#ff9ac1:#19f9d8:#ffcc95:#45a9f9:#b084eb:#6fc1ff:#eeeeec"
+    copy_on_selection = True
+  [[Pandora]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#141e43"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#43d58e"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#e1e1e1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#ff4242:#74af68:#ffad29:#338f86:#9414e6:#23d7d7:#e2e2e2:#3f5648:#ff3242:#74cd68:#ffb929:#23d7d7:#ff37ff:#00ede1:#ffffff"
+    copy_on_selection = True
+  [[Parasio Dark]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#2f1e2e"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#a39e9b"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#a39e9b"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2f1e2e:#ef6155:#48b685:#fec418:#06b6ef:#815ba4:#5bc4bf:#a39e9b:#776e71:#ef6155:#48b685:#fec418:#06b6ef:#815ba4:#5bc4bf:#e7e9db"
+    copy_on_selection = True
+  [[Relaxed]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#353a44"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#d9d9d9"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#d9d9d9"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#151515:#bc5653:#909d63:#ebc17a:#6a8799:#b06698:#c9dfff:#d9d9d9:#636363:#bc5653:#a0ac77:#ebc17a:#7eaac7:#b06698:#acbbd0:#f7f7f7"
+    copy_on_selection = True
+  [[Rose Pine]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#191724"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#9ccfd8"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#e0def4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#26233A:#eb6f91:#9ccfd8:#f6c177:#31748f:#65618d:#c4a7e7:#d3d7cf:#26233a:#eb6f91:#9ccfd8:#f6c177:#31748f:#65618d:#c4a7e7:#eeeeec"
+    copy_on_selection = True
+  [[Seafoam Pastel]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#243435"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#57647a"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#d4e7d4"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#757575:#825d4d:#728c62:#ada16d:#4d7b82:#8a7267:#729494:#e0e0e0:#8a8a8a:#cf937a:#98d9aa:#fae79d:#7ac3cf:#d6b2a1:#ade0e0:#e0e0e0"
+    copy_on_selection = True
+  [[SeaShells]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#09141b"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#fca02f"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#deb88d"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#17384c:#d15123:#027c9b:#fca02f:#1e4950:#68d4f1:#50a3b5:#deb88d:#434b53:#d48678:#628d98:#fdd39f:#1bbcdd:#bbe3ee:#87acb4:#fee4ce"
+    copy_on_selection = True
+  [[Shaman]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#001015"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#4afcd6"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#405555"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#012026:#b2302d:#00a941:#5e8baa:#449a86:#00599d:#5d7e19:#405555:#384451:#ff4242:#2aea5e:#8ed4fd:#61d5ba:#1298ff:#98d028:#58fbd6"
+    copy_on_selection = True
+  [[Sick]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#272935"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#aeaeb1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2e3436:#f47375:#6bf1be:#e5f081:#6aa1fd:#c481ff:#6de4fd:#d3d7cf:#555753:#f47375:#6bf1be:#e5f081:#6aa1fd:#c481ff:#6de4fd:#eeeeec"
+    copy_on_selection = True
+  [[Snazzy]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#242424"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#97979b"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#eff0eb"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#282a36:#ff5c57:#5af78e:#f3f99d:#57c7ff:#ff6ac1:#9aedfe:#f1f1f0:#686868:#ff5c57:#5af78e:#f3f99d:#57c7ff:#ff6ac1:#9aedfe:#eff0eb"
+    copy_on_selection = True
+  [[Solarized Dark]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#002b36"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#eee8d5"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#eee8d5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#586e75:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    copy_on_selection = True
+  [[Solarized Dark - Patched]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#001e27"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#708284"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#708284"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#002831:#d11c24:#738a05:#a57706:#2176c7:#c61c6f:#259286:#eae3cb:#475b62:#bd3613:#475b62:#536870:#708284:#5956ba:#819090:#fcf4dc"
+    copy_on_selection = True
+  [[Solarized Dark Higher Contrast]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#001e27"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#f34b00"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#9cc2c3"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#002831:#d11c24:#6cbe6c:#a57706:#2176c7:#c61c6f:#259286:#eae3cb:#006488:#f5163b:#51ef84:#b27e28:#178ec8:#e24d8e:#00b39e:#fcf4dc"
+    copy_on_selection = True
+  [[Solarized Light]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#eee8d5"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#002b36"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#002b36"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    copy_on_selection = True
+  [[Spacedust]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#0a1e24"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#708284"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ecf0c1"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#6e5346:#e35b00:#5cab96:#e3cd7b:#0f548b:#e35b00:#06afc7:#f0f1ce:#684c31:#ff8a3a:#aecab8:#ffc878:#67a0ce:#ff8a3a:#83a7b4:#fefff1"
+    copy_on_selection = True
+  [[Spiderman]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1b1d1e"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#2c3fff"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#e3e3e3"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#1b1d1e:#e60813:#e22928:#e24756:#2c3fff:#2435db:#3256ff:#fffef6:#505354:#ff0325:#ff3338:#fe3a35:#1d50ff:#747cff:#6184ff:#fffff9"
+    copy_on_selection = True
+  [[Spring]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#ffffff"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#4d4d4c"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#4d4d4c"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#ff4d83:#1f8c3b:#1fc95b:#1dd3ee:#8959a8:#3e999f:#ffffff:#000000:#ff0021:#1fc231:#d5b807:#15a9fd:#8959a8:#3e999f:#ffffff"
+    copy_on_selection = True
+  [[Square]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1a1a1a"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#fcfbcc"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#acacab"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#050505:#e9897c:#b6377d:#ecebbe:#a9cdeb:#75507b:#c9caec:#f2f2f2:#141414:#f99286:#c3f786:#fcfbcc:#b6defb:#ad7fa8:#d7d9fc:#e2e2e2"
+    copy_on_selection = True
+  [[Symfonic]]
+    urgent_bell = True
+    icon_bell = False
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#dc322f"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff:#1b1d21:#dc322f:#56db3a:#ff8400:#0084d4:#b729d9:#ccccff:#ffffff"
+    copy_on_selection = True
+  [[Thayer Bright]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1b1d1e"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#fc971f"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#f8f8f8"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#1b1d1e:#f92672:#4df840:#f4fd22:#2757d6:#8c54fe:#38c8b5:#ccccc6:#505354:#ff5995:#b6e354:#feed6c:#3f78ff:#9e6ffe:#23cfd5:#f8f8f2"
+    copy_on_selection = True
+  [[Tomorrow Night]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1d1f21"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#c5c8c6"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#c5c8c6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#ffffff:#000000:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#ffffff"
+    copy_on_selection = True
+  [[Tomorrow Night Blue]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#002451"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#ffffff"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#ff9da4:#d1f1a9:#ffeead:#bbdaff:#ebbbff:#99ffff:#ffffff:#000000:#ff9da4:#d1f1a9:#ffeead:#bbdaff:#ebbbff:#99ffff:#ffffff"
+    copy_on_selection = True
+  [[Tomorrow Night Eighties]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#2d2d2d"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#cccccc"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#cccccc"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#ffffff:#000000:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#ffffff"
+    copy_on_selection = True
+  [[ToyChest]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#24364b"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#d5d5d5"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#31d07b"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#2c3f58:#be2d26:#1a9172:#db8e27:#325d96:#8a5edc:#35a08f:#23d183:#336889:#dd5944:#31d07b:#e7d84b:#34a6da:#ae6bdc:#42c3ae:#d5d5d5"
+    copy_on_selection = True
+  [[Vaughn]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#25234f"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#ff5555"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#dcdccc"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#25234f:#705050:#60b48a:#dfaf8f:#5555ff:#f08cc3:#8cd0d3:#709080:#709080:#dca3a3:#60b48a:#f0dfaf:#5555ff:#ec93d3:#93e0e3:#ffffff"
+    copy_on_selection = True
+  [[WildCherry]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#1f1726"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#dd00ff"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#dafaff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000507:#d94085:#2ab250:#ffd16f:#883cdc:#ececec:#c1b8b7:#fff8de:#009cc9:#da6bac:#f4dca5:#eac066:#308cba:#ae636b:#ff919d:#e4838d"
+    copy_on_selection = True
+  [[Wombat]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#171717"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#dedacf"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#000000:#ff615a:#b1e969:#ebd99c:#5da9f6:#e86aff:#82fff7:#dedacf:#313131:#f58c80:#ddf88f:#eee5b2:#a5c7ff:#ddaaff:#b7fff9:#ffffff"
+    copy_on_selection = True
+  [[Wryan]]
+    urgent_bell = True
+    icon_bell = False
+    background_color = "#101010"
+    background_darkness = 0.26
+    cursor_shape = ibeam
+    cursor_color = "#9e9ecb"
+    cursor_color_fg = False
+    font = Inconsolata Medium 16
+    foreground_color = "#999993"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 734
+    palette = "#333333:#8c4665:#287373:#7c7c99:#395573:#5e468c:#31658c:#899ca1:#3d3d3d:#bf4d80:#53a6a6:#9e9ecb:#477ab3:#7e62b3:#6096bf:#c0c0c0"
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 187:213
+      maximised = False
+      fullscreen = False
+      size = 1614, 870
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_term = f9936144-6644-471d-a1d3-3271fc6b1c0f
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 350
+      ratio = 0.2175264139216905
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = Github
+      uuid = dd85d1d2-34f7-473b-a180-7729d80690ed
+    [[[child3]]]
+      type = HPaned
+      parent = child1
+      order = 1
+      position = 616
+      ratio = 0.48966613672496023
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = WildCherry
+      uuid = f9936144-6644-471d-a1d3-3271fc6b1c0f
+    [[[child5]]]
+      type = VPaned
+      parent = child3
+      order = 1
+      position = 431
+      ratio = 0.4982658959537572
+    [[[terminal6]]]
+      type = Terminal
+      parent = child5
+      order = 0
+      profile = Vaughn
+      uuid = fba1d66b-fac4-48e5-ad75-b1ce27b3ad23
+    [[[terminal7]]]
+      type = Terminal
+      parent = child5
+      order = 1
+      profile = WildCherry
+      uuid = bcf88518-6a9c-4154-8dbb-9dcbf3044d08
+  [[nicce]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 357:106
+      maximised = False
+      fullscreen = False
+      size = 1550, 1042
+      title = Vim Practice.py
+      last_active_term = 494f203d-90d2-45c3-bbed-9dd831b45468
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 514
+      ratio = 0.3326860841423948
+    [[[child2]]]
+      type = VPaned
+      parent = child1
+      order = 0
+      position = 718
+      ratio = 0.6923818707810994
+    [[[child3]]]
+      type = VPaned
+      parent = child2
+      order = 0
+      position = 356
+      ratio = 0.4992987377279102
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = nicce
+      uuid = ba1e5c1b-1252-4abe-b69b-98b7b5097198
+    [[[terminal5]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      profile = nicce
+      uuid = e937e7d0-57ed-4e2c-a167-95598fe71282
+    [[[terminal6]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = bayani
+      uuid = 1bdd7bed-e130-44ae-bc81-5ad0572942d4
+    [[[child7]]]
+      type = VPaned
+      parent = child1
+      order = 1
+      position = 413
+      ratio = 0.3982642237222758
+    [[[child8]]]
+      type = HPaned
+      parent = child7
+      order = 0
+      position = 536
+      ratio = 0.5203883495145631
+    [[[terminal9]]]
+      type = Terminal
+      parent = child8
+      order = 0
+      profile = bayani
+      uuid = 330afd62-8d3c-44df-89e2-b872bf41702b
+    [[[terminal10]]]
+      type = Terminal
+      parent = child8
+      order = 1
+      profile = bayani
+      uuid = 4cfe6d39-4cf6-44c2-aabc-b45cc6635c62
+      command = ""
+    [[[child11]]]
+      type = HPaned
+      parent = child7
+      order = 1
+      position = 606
+      ratio = 0.5883495145631068
+    [[[terminal12]]]
+      type = Terminal
+      parent = child11
+      order = 0
+      profile = nicce_inverse
+      uuid = 56507f3c-0f41-4a22-8616-dac4e5c232bb
+      command = ""
+    [[[terminal13]]]
+      type = Terminal
+      parent = child11
+      order = 1
+      profile = nicce
+      title = functions list
+      uuid = 494f203d-90d2-45c3-bbed-9dd831b45468
+  [[functions on right]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 260:94
+      maximised = False
+      fullscreen = False
+      size = 1550, 1042
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_term = 3efd6327-20fd-4a4d-a8d3-83b689108113
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 1028
+      ratio = 0.6653721682847896
+    [[[child2]]]
+      type = VPaned
+      parent = child1
+      order = 0
+      position = 400
+      ratio = 0.3857280617164899
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = deception3
+      uuid = 56507f3c-0f41-4a22-8616-dac4e5c232bb
+    [[[child4]]]
+      type = HPaned
+      parent = child2
+      order = 1
+      position = 219
+      ratio = 0.21407624633431085
+    [[[terminal5]]]
+      type = Terminal
+      parent = child4
+      order = 0
+      profile = deception3
+      uuid = 28de0194-1d6e-4267-8a45-b06b724749aa
+    [[[child6]]]
+      type = HPaned
+      parent = child4
+      order = 1
+      position = 391
+      ratio = 0.48692403486924035
+    [[[terminal7]]]
+      type = Terminal
+      parent = child6
+      order = 0
+      profile = deception3
+      uuid = 3efd6327-20fd-4a4d-a8d3-83b689108113
+    [[[terminal8]]]
+      type = Terminal
+      parent = child6
+      order = 1
+      profile = deception3
+      uuid = e2a83a5e-8d18-40ad-9332-5c24a17877a6
+    [[[terminal9]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = deception
+      uuid = 494f203d-90d2-45c3-bbed-9dd831b45468
+  [[simple brown]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 440:581
+      maximised = False
+      fullscreen = False
+      size = 728, 535
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_term = a2fdfac8-13d0-49ed-b02b-1ae55655b0c7
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = nicce_inverse
+      uuid = a2fdfac8-13d0-49ed-b02b-1ae55655b0c7
+  [[neon city x3]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 541:327
+      maximised = False
+      fullscreen = False
+      size = 1133, 729
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_term = f9936144-6644-471d-a1d3-3271fc6b1c0f
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 566
+      ratio = 0.50177304964539
+    [[[child2]]]
+      type = VPaned
+      parent = child1
+      order = 0
+      position = 346
+      ratio = 0.47790055248618785
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = Neon City
+      uuid = e937e7d0-57ed-4e2c-a167-95598fe71282
+    [[[terminal4]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = Neon City
+      uuid = a2fdfac8-13d0-49ed-b02b-1ae55655b0c7
+    [[[terminal5]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = Neon City
+      uuid = f9936144-6644-471d-a1d3-3271fc6b1c0f
+  [[mega neon]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 269:87
+      maximised = False
+      fullscreen = False
+      size = 1550, 1042
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_term = 56507f3c-0f41-4a22-8616-dac4e5c232bb
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 458
+      ratio = 0.29644012944983816
+    [[[child2]]]
+      type = VPaned
+      parent = child1
+      order = 0
+      position = 718
+      ratio = 0.6923818707810994
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = deception
+      uuid = ba1e5c1b-1252-4abe-b69b-98b7b5097198
+      command = ""
+    [[[terminal4]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = deception2
+      uuid = 1bdd7bed-e130-44ae-bc81-5ad0572942d4
+    [[[child5]]]
+      type = VPaned
+      parent = child1
+      order = 1
+      position = 405
+      ratio = 0.390549662487946
+    [[[child6]]]
+      type = HPaned
+      parent = child5
+      order = 0
+      position = 578
+      ratio = 0.5322283609576427
+    [[[terminal7]]]
+      type = Terminal
+      parent = child6
+      order = 0
+      profile = deception2
+      uuid = 330afd62-8d3c-44df-89e2-b872bf41702b
+      command = how Bash
+    [[[terminal8]]]
+      type = Terminal
+      parent = child6
+      order = 1
+      profile = deception
+      uuid = 9642a9d4-1642-4cf0-9720-ce93ebb04d99
+    [[[child9]]]
+      type = HPaned
+      parent = child5
+      order = 1
+      position = 579
+      ratio = 0.5331491712707183
+    [[[terminal10]]]
+      type = Terminal
+      parent = child9
+      order = 0
+      profile = deception3
+      uuid = 56507f3c-0f41-4a22-8616-dac4e5c232bb
+    [[[terminal11]]]
+      type = Terminal
+      parent = child9
+      order = 1
+      profile = deception
+      uuid = 494f203d-90d2-45c3-bbed-9dd831b45468
+  [[live means die]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 222:583
+      maximised = False
+      fullscreen = False
+      size = 818, 550
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_term = 366b72ee-bb71-4e52-8aeb-fe0631be9ee2
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 406
+      ratio = 0.4993849938499385
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = live means die
+      uuid = a2fdfac8-13d0-49ed-b02b-1ae55655b0c7
+    [[[terminal3]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = live means die 2
+      uuid = 366b72ee-bb71-4e52-8aeb-fe0631be9ee2
+  [[WebDev 2editors]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 255:335
+      maximised = False
+      fullscreen = False
+      size = 1643, 827
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_term = dd85d1d2-34f7-473b-a180-7729d80690ed
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 580
+      ratio = 0.3540903540903541
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 307
+      ratio = 0.5339130434782609
+    [[[child3]]]
+      type = VPaned
+      parent = child2
+      order = 0
+      position = 407
+      ratio = 0.4951338199513382
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = Neon City
+      uuid = e937e7d0-57ed-4e2c-a167-95598fe71282
+    [[[terminal5]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      profile = Neon City
+      uuid = 77cdd97a-6538-48b3-ac2f-222081d8ede5
+    [[[terminal6]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = live means die
+      uuid = dd85d1d2-34f7-473b-a180-7729d80690ed
+    [[[child7]]]
+      type = HPaned
+      parent = child1
+      order = 1
+      position = 555
+      ratio = 0.5250709555345316
+    [[[terminal8]]]
+      type = Terminal
+      parent = child7
+      order = 0
+      profile = solarized dark
+      uuid = f9936144-6644-471d-a1d3-3271fc6b1c0f
+    [[[terminal9]]]
+      type = Terminal
+      parent = child7
+      order = 1
+      profile = solarized dark
+      uuid = fba1d66b-fac4-48e5-ad75-b1ce27b3ad23
+  [[WebDev 3js-css-html]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 281:291
+      maximised = False
+      fullscreen = False
+      size = 1614, 870
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_window = True
+    [[[child1]]]
+      type = Notebook
+      parent = child0
+      order = 0
+      labels = None, None
+      last_active_term = f9936144-6644-471d-a1d3-3271fc6b1c0f, af56d852-1920-48ba-90c0-098feb5bff34
+      active_page = 0
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 526
+      ratio = 0.3273179838207841
+    [[[child3]]]
+      type = HPaned
+      parent = child2
+      order = 0
+      position = 237
+      ratio = 0.45489443378119004
+    [[[child4]]]
+      type = VPaned
+      parent = child3
+      order = 0
+      position = 555
+      ratio = 0.6630824372759857
+    [[[terminal5]]]
+      type = Terminal
+      parent = child4
+      order = 0
+      profile = deception2
+      uuid = e937e7d0-57ed-4e2c-a167-95598fe71282
+    [[[terminal6]]]
+      type = Terminal
+      parent = child4
+      order = 1
+      profile = solarized - lavendar
+      uuid = 77cdd97a-6538-48b3-ac2f-222081d8ede5
+    [[[terminal7]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      profile = solarized - turqouise
+      uuid = dd85d1d2-34f7-473b-a180-7729d80690ed
+    [[[child8]]]
+      type = HPaned
+      parent = child2
+      order = 1
+      position = 567
+      ratio = 0.525
+    [[[terminal9]]]
+      type = Terminal
+      parent = child8
+      order = 0
+      profile = solarized dark
+      uuid = f9936144-6644-471d-a1d3-3271fc6b1c0f
+    [[[child10]]]
+      type = VPaned
+      parent = child8
+      order = 1
+      position = 417
+      ratio = 0.4982078853046595
+    [[[terminal11]]]
+      type = Terminal
+      parent = child10
+      order = 0
+      profile = gruvbox dark
+      uuid = fba1d66b-fac4-48e5-ad75-b1ce27b3ad23
+    [[[terminal12]]]
+      type = Terminal
+      parent = child10
+      order = 1
+      profile = gruvbox dark
+      uuid = bcf88518-6a9c-4154-8dbb-9dcbf3044d08
+    [[[terminal13]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = solarized dark
+      uuid = af56d852-1920-48ba-90c0-098feb5bff34
+  [[WebDev3-minimal]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 306:282
+      maximised = False
+      fullscreen = False
+      size = 1614, 870
+      title = bymyself@bymyself-Surface-Book: ~
+      last_active_window = True
+    [[[child1]]]
+      type = Notebook
+      parent = child0
+      order = 0
+      labels = None, None
+      last_active_term = f9936144-6644-471d-a1d3-3271fc6b1c0f, af56d852-1920-48ba-90c0-098feb5bff34
+      active_page = 0
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 350
+      ratio = 0.2177971375233354
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = solarized - turqouise
+      uuid = dd85d1d2-34f7-473b-a180-7729d80690ed
+    [[[child4]]]
+      type = HPaned
+      parent = child2
+      order = 1
+      position = 646
+      ratio = 0.5143312101910829
+    [[[terminal5]]]
+      type = Terminal
+      parent = child4
+      order = 0
+      profile = solarized dark
+      uuid = f9936144-6644-471d-a1d3-3271fc6b1c0f
+    [[[child6]]]
+      type = VPaned
+      parent = child4
+      order = 1
+      position = 417
+      ratio = 0.4982078853046595
+    [[[terminal7]]]
+      type = Terminal
+      parent = child6
+      order = 0
+      profile = gruvbox dark
+      uuid = fba1d66b-fac4-48e5-ad75-b1ce27b3ad23
+    [[[terminal8]]]
+      type = Terminal
+      parent = child6
+      order = 1
+      profile = gruvbox dark
+      uuid = bcf88518-6a9c-4154-8dbb-9dcbf3044d08
+    [[[terminal9]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = solarized dark
+      uuid = af56d852-1920-48ba-90c0-098feb5bff34
+[plugins]

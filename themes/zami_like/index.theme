@@ -1,0 +1,7 @@
+[X-GNOME-Metatheme]
+Name=zAmiga Theme
+Comment=zAmi like window decorations (from screenshots) and Clearlooks
+Encoding=UTF-8
+GtkTheme=zami_like
+MetacityTheme=zami_like
+IconTheme=gnome

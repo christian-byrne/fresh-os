@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"
+[
+ <!ATTLIST svg
+  xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink">
+]>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   id="svg1"
+   sodipodi:version="0.28"
+   width="640pt"
+   height="640pt"
+   sodipodi:docbase="/home/uga/MisDocumentos/Cursors/"
+   sodipodi:docname="/home/uga/MisDocumentos/Cursors/xterm.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient8">
+      <stop
+         style="stop-color:#000;stop-opacity:1;"
+         offset="0"
+         id="stop9" />
+      <stop
+         style="stop-color:#fff;stop-opacity:1;"
+         offset="1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient8"
+       id="linearGradient11" />
+    <linearGradient
+       xlink:href="#linearGradient8"
+       id="linearGradient12" />
+    <radialGradient
+       xlink:href="#linearGradient8"
+       id="radialGradient31"
+       cx="0.5"
+       cy="0.5"
+       fx="0.5"
+       fy="0.5"
+       r="0.5"
+       gradientUnits="objectBoundingBox"
+       gradientTransform="translate(-1.55528e-08,6.44504e-10)"
+       spreadMethod="pad" />
+  </defs>
+  <sodipodi:namedview
+     id="base" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#3a3a3a;stroke-opacity:1;stroke-width:30.3676;stroke-linejoin:round;stroke-linecap:butt;fill-opacity:0;stroke-dasharray:none;"
+     d="M 107.5 115 C 107.5 115 219.375 150.253 331.25 150.253 C 443.125 150.253 555 115 555 115 C 555 115 555 205 555 205 C 555 205 385 205 385 205 L 385.352 345.038 L 479.395 422.076 L 379.824 480.132 L 385 650 C 376.269 647.288 555 647.5 555 647.5 C 555 647.5 555 732.5 555 732.5 C 555 732.5 442.5 691.823 330 691.823 C 217.5 691.823 105 732.5 105 732.5 C 105 732.5 105 647.5 105 647.5 C 105 647.5 270 647.712 270 647.712 L 263.769 477.844 L 182.773 419.788 L 270 348.173 L 270 202.712 C 270 202.712 107.5 200 107.5 200 C 107.5 200 107.5 115 107.5 115 z "
+     id="path31"
+     sodipodi:nodetypes="cscccccccccsccccccccc"
+     transform="matrix(0.449844,0,0,1.06432,15.5931,-94.7258)" />
+  <path
+     sodipodi:type="arc"
+     style="fill-rule:evenodd;stroke:none;fill:#ff0000;fill-opacity:0.5;stroke-opacity:1;stroke-width:1pt;stroke-linejoin:miter;stroke-linecap:butt;"
+     id="path12"
+     d="M 272.897217 362.616821 A 17.445496 34.890961 0 1 0 238.006226,362.616821 A 17.4455 34.891 0 1 0 272.897 362.617 L 255.451721 362.616821 z"
+     sodipodi:cx="255.451721"
+     sodipodi:cy="362.616821"
+     sodipodi:rx="17.445496"
+     sodipodi:ry="34.890961"
+     transform="matrix(5.14287,0,0,2.57143,-1153,-584.78)" />
+</svg>

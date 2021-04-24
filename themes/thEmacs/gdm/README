@@ -1,0 +1,8 @@
+  - as root
+  - copy file 'bugs.png' and file 'Won-TonSoup2.jpg' into directory '/etc/X11/gdm' (on redhat distribs, and maybe the others)
+
+  - edit file '/etc/X11/gdm/gdm.conf'
+      - go to the section '[gui]' for writting the good gtkrc's path (GtkRc=/usr/share/themes/thEmacs/gtk/gtkrc)
+      - and go to the section '[greeter]' for writting the logo's path (Logo=/etc/X11/gdm/bugs.png)
+
+  - edit file '/etc/X11/xdm/Xsetup_0' with joined file for writting the backgroung's path

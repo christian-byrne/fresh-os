@@ -1,0 +1,11 @@
+#!/bin/bash
+MSG="<!-- Running practice.py  -->"
+BAR="-----------------------------"
+LINEBREAK="              "
+echo $BAR
+echo $MSG
+echo $BAR
+echo $LINEBREAK
+cd /home/bymyself/Desktop
+python3 practice.py
+cd

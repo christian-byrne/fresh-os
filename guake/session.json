@@ -1,0 +1,20 @@
+{
+    "schema_version": 2,
+    "timestamp": 1619232489,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/bymyself"
+                        }
+                    ],
+                    "label": "bymyself: ~",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

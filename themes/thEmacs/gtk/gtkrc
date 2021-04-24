@@ -1,0 +1,55 @@
+# tEmacs
+# Auteurs - Authors : 	Philippe ROY <ph_roy@yahoo.com> + Yeupou <yeupou@altern.org>
+# Michal Suchanek <hramrach@centrum.cz> : slight modification to selection to work with gtk 2.0
+
+# #2f4f4f : darkgreen
+# #366462 : "darkgreen clair"
+# #172a29 : "darkgreen foncé"
+
+# #f5deb3 : weat
+# #d2b48c : tan
+
+# #298952 : "vert très clair"
+# #526929 : "olive"
+# #6a997b : "vert clair"
+
+# #3b5654 : gris
+
+# #ffc2cd : "rose"
+# #d5a2ab : "rose foncé"
+# #de71d5 : "mauve clair"
+
+style "default"
+{
+# font = "adobe-helvetica-normal-r-normal--12-*-*-*-*-*-*-*"
+# base, text, bg, fg are possible
+
+  fg[NORMAL]		= "#f5deb3"	
+  text[NORMAL]		= "#f5deb3"
+  bg[NORMAL]		= "#2f4f4f"
+  base[NORMAL]		= "#366462"
+
+  fg[INSENSITIVE]	= "#3b5654"
+  bg[INSENSITIVE]	= "#3b5654"
+  base[INSENSITIVE]	= "#3b5654"
+
+  fg[PRELIGHT]		= "#f5deb3"
+  text[PRELIGHT]	= "#f5deb3"
+  bg[PRELIGHT]		= "#526929"
+  base[PRELIGHT]	= "#366462"
+
+  fg[ACTIVE]		= "#f5deb3"
+  text[ACTIVE]		= "#f5deb3"
+  base[ACTIVE]		= "#2f4f4f"
+  bg[ACTIVE]		= "#2f4f4f"
+
+  fg[SELECTED]		= "#172a29"
+  text[SELECTED]	= "#172a29"
+  bg[SELECTED]		= "#6a997b"
+  base[SELECTED]	= "#6a997b" 
+
+}
+
+
+widget_class "*" style "default"
+

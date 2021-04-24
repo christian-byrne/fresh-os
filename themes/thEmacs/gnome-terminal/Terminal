@@ -1,0 +1,25 @@
+
+[Placement]
+Dock=Menubar\\0,0,0,0
+
+[Config]
+font=-misc-fixed-medium-r-semicondensed-*-13-*-*-*-c-*-iso8859-1
+wordclass=-A-Za-z0-9,./?%&#
+scrollpos=right
+bell_silenced=false
+blinking=false
+swap_del_and_backspace=false
+login_by_default=false
+use_bold=false
+scrollbacklines=1000
+color_set=0
+color_scheme=custom
+menubar=false
+scrollonkey=true
+scrollonoutput=false
+transparent=true
+shaded=false
+scroll_background=false
+background_pixmap=false
+pixmap_file=
+palette=rgb:0000/0000/0000 rgb:aaaa/0000/0000 rgb:0000/745d/0000 rgb:aaaa/5555/0000 rgb:2eea/4f84/4f84 rgb:3ba3/67f0/d364 rgb:69fb/9999/7ae1 rgb:ffff/ffff/ffff rgb:5555/5555/5555 rgb:ffff/5555/5555 rgb:f332/f332/828f rgb:ffff/4444/0000 rgb:9eb8/fae0/9eb8 rgb:fc28/b332/ffff rgb:f42e/f45c/810a rgb:9d73/fae0/9b8b rgb:bebe/bebe/bebe rgb:0000/0000/0000 

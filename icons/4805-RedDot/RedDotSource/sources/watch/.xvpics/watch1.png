@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE kopete-contact-list>
+<kopete-contact-list version="1.0">
+  <kopete-group type="top-level" view="expanded">
+    <display-name></display-name>
+  </kopete-group>
+  <kopete-group type="standard" view="expanded">
+    <display-name>Friends</display-name>
+    <plugin-data plugin-id="MSNProtocol">
+      <plugin-data-field key="displayName">Friends</plugin-data-field>
+      <plugin-data-field key="id">0</plugin-data-field>
+      <plugin-data-field key="ugarro@hotmail.com displayName">Friends</plugin-data-field>
+      <plugin-data-field key="ugarro@hotmail.com id">0</plugin-data-field>
+    </plugin-data>
+  </kopete-group>
+  <meta-contact>
+    <display-name trackChildNameChanges="0">Quela</display-name>
+    <groups>
+      <group>Friends</group>
+    </groups>
+    <address-book-field app="messaging/icq" key="All">174543024</address-book-field>
+    <plugin-data plugin-id="ICQProtocol">
+      <plugin-data-field key="contactId">174543024</plugin-data-field>
+      <plugin-data-field key="displayName">Quela</plugin-data-field>
+    </plugin-data>
+  </meta-conta
