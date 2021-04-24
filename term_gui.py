@@ -34,7 +34,6 @@ class term_gui:
             "blue" : "yellow",
             "magenta" : "green",
             "cyan" : "red",
-            "white" : "blue"
         }
         self.headers = [
             { "fill" : 75,

@@ -1,15 +1,11 @@
-#import vs_settings_init
-#import batch_crx
-#import batch_vs_extensions
+import batch_crx
+from batch_crx import dl_crx
+from batch_vs_extensions import batch_vs
 from batchdl_py_mods import get_modules
 import random, os
 from term_gui import term_gui, make_header
 from termcolor import colored
 from emoji import emojize
-
-
-
-
 
 
 def start_section(section):
@@ -47,18 +43,25 @@ def start_section(section):
 def sh(section, commands_only=False):
 
     commands = {
-        "wallpapers" : [
+        "repo" : [
             "cd",
-            "mkdir .themes",
-            "cd Pictures",
-            "mkdir wallpapers",
+            "mkdir temp_clone",
+            "cd temp_clone",
+            "git clone https://github.com/trevor-reznik/fresh-os.git",
             "cd"
-
         ],
 
-
-        "icons" : [
-            "mkdir .icons",
+        "themes" : [
+            "cd",
+            "mkdir .themes",
+            "mkdir .icons"
+            "mkdir Pictures",
+            "cd Pictures",
+            "mkdir wallpapers",
+            "cd",
+            "mv ~/temp_clone/fresh-os/wallpapers/* ~/Pictures/wallpapers",
+            "sudo mv ~/temp_clone/fresh-os/icons/* ~/.icons",
+            "sudo mv ~/temp_clone/fresh-os/themes/* ~/.themes",
         ],
 
 
@@ -80,7 +83,6 @@ def sh(section, commands_only=False):
             "make",
             "cd"
         ],
-
         "npm" : [
             "curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -",
             "sudo apt update",
@@ -140,7 +142,7 @@ def sh(section, commands_only=False):
             "sudo apt update && sudo apt upgrade",
             "sudo apt-get update && sudo apt-get upgrade",
             "sudo apt-get install htop"
-        ]
+        ],
 
 
         # ─── APP PLUGINS ────────────────────────────────────────────────────────────────
@@ -151,10 +153,9 @@ def sh(section, commands_only=False):
             "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim",
             "curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim",
             "cd",
-            "rm .vimrc"
-
-
-
+            "sudo mv ~/temp_clone/fresh-os/vimrc /.vimrc",
+            "vim +PluginInstall +qall;",
+            "vim +PluginUpdate +qall;"
         ],
         "gedit plugins" : [
             "cd",
@@ -174,23 +175,66 @@ def sh(section, commands_only=False):
             "cd",
             "mkdir -p .config/terminator/plugins",
             'wget https://git.io/v5Zww -O ".config/terminator/plugins/terminator-themes.py"',
-            "cd; ",
-
+            "cd",
         ],
 
 
+        # ─── CONFIG FILES ─────────────────────────────────────────────────────────────────
 
 
+        "config files" : [
+            "pip3 install emoji --upgrade"
+            "sudo mv ~/temp_clone/fresh-os/autostart ~/.config/",
+            "sudo mv ~/temp_clone/fresh-os/plank ~/.config/",
 
-            "vim +PluginInstall +qall;",
-            "vim +PluginUpdate +qall;",
+            "sudo mv ~/temp_clone/fresh-os/terminator ~/.config/",
+            "sudo mv ~/temp_clone/fresh-os/gedit ~/.config/",
+            "sudo mv ~/temp_clone/fresh-os/terminology ~/.config/",
+            "sudo mv ~/temp_clone/fresh-os/qBittorrent ~/.config/",
+            "sudo mv ~/temp_clone/fresh-os/nordvpn ~/.config/",
+            "sudo mv ~/temp_clone/fresh-os/guake ~/.config/",
 
-        "misc" : [
-            "pip install emoji --upgrade"
+            "sudo mv ~/temp_clone/fresh-os/gedit-plugins ~/temp_clone/fresh-os/plugins",
+            "sudo mv ~/temp_clone/fresh-os/plugins ~/.gnome2/gedit/",
+            "sudo mv ~/temp_clone/fresh-os/gedit-styles ~/temp_clone/fresh-os/styles",
+            "sudo mv ~/temp_clone/fresh-os/styles ~/.gnome2/gedit/",
+
+            "sudo mv ~/temp_clone/fresh-os/settings.json /.config/Code/User/"
+        ],
+
+        "Windows" : [
+            "sudo mv ~/temp_clone/fresh-os/settings.json $HOME/Library/Application Support/Code/User/settings.json"
+        ],
+
+        "Mac" : [
+            "sudo mv ~/temp_clone/fresh-os/settings.json %APPDATA%\\Code\\User\\settings.json"
+        ],
+
+        "bash scripts/aliases" : [
+            "cd",
+            "sudo mv ~/temp_clone/fresh-os/bash-scripts .",
+            "sudo chmod +x ~/bash-scripts/f5*",
+            "sudo chmod +x ~/bash-scripts/nohup*",
+            "echo 'alias pypractice=\"vim ~/Desktop/practice.py\"' >> ~/.bashrc"
+            "echo \"alias f5='~/bash_scripts/f5'\" >> ~/.bashrc"
+            "echo \"alias setalias='nano ~/.bashrc'\" >> ~/.bashrc"
+            "echo \"alias a1='~/bash_scripts/nohup'\" >> ~/.bashrc"
+        ],
+
+        "cleanup" : [
+            "cd",
+            "rm *.deb",
+            "rm *.zip",
+            "cd Downloads",
+            "rm *.deb",
+            "rm *.zip",
+            "cd",
+            "sudo ln -s /var/lib/snapd/desktop/applications /usr/share/applications/snapd",
+            "xfce4-panel -r",
+            "sudo rm quickhighlight_gedit -r",
         ]
+    }
 
-
-        }
     if commands_only:
         ret = ""
         for _ in commands[section]:
@@ -226,10 +270,77 @@ def bash_chain(chain):
     return True
 
 
+def guided_sections():
+    modules = {
+        "appearance" : """    ---------------------------
+    |       <Appearance>       |
+    ---------------------------
+
+    | Theme "Appearance"
+    | Hide desktop icons
+    | Icons
+    | Cursor (Theme and Size)
+    | 	(Change in Mouse and Touchpad Settings)
+	| Wallpapers in terminology config files (set as source folder)""",
+
+    "tweaks" :"""    ---------------------------
+    |         <Tweaks>         |
+    ---------------------------
+
+
+    <w Dialog Windows_________ >
+    |
+    |    __Search for___________
+    |    [1] Settings Editor
+    |    [2] Settings (xfce window)
+    |    [3] Window Manager Tweaks
+    		 No Window Snapping""",
+    "startup commands" :"""    <w Startup Command Chain_________ >
+    |
+    |  xrandr --size 1680x1050; terminator;""",
+    
+    "shortcuts" : """<!=================================================================!>
+
+    <w Shortcuts_________ >
+    |
+    |	 ______________________________________
+    |    [+]__Add_____
+    |	 [A] Keyboard -> Settings Editor -> xfce4-keyboard-shortcuts
+    |    [1] Super_L		:		xfce4-popup-whiskermenu
+    |    [2] <Alt>h	  		:		hide window
+    |    [3] <Alt>7	  		:		move window
+    |    [4] <Alt>8	  		:		resize window
+    |    [5] <Alt>11		:		fullscreen
+    |	 [B] Keyboard -> Application Shortcuts
+    |    [1] terminator 	: 		Alt+Return
+    |    [2] appfinder  	: 		Alt+'
+    |    [3] whisker-popup  : 		Super L
+    |    [4] screenshot clipboard regions	:	Super s
+    
+<!=================================================================!>"""
+    }
+
+
+
+    for title, text, color in zip(modules.keys(), modules.values(), \
+        ["blue", "magenta", "cyan","blue", "magenta", "cyan"]):
+        print(colored(
+            make_header(60, title, character="~", tiers=1),
+            "red")
+            )
+        print(colored(
+            text,
+            color)
+            )
+        nxt = input("\n\n[P]roceed\n")
+        while nxt.lower() != "p":
+            nxt = input("")
+
+
 def make_mine():
 
     # ─── PYTHON MODULES ─────────────────────────────────────────────────────────────
-    if start_section("modules"):
+    if start_section("python modules"):
         try:
             get_modules(fresh=False)
         except:
@@ -237,15 +348,39 @@ def make_mine():
 
 
     # ─── SH DL SCRIPTS ──────────────────────────────────────────────────────────────
-    
-    sections = ["snap store", "ngrok", "test"]
-    
+    sections = [
+        "repo", "themes", "snap store", "yum", "npm", "ngrok", "chrome", "virtualbox",
+        "vscode", "glow", "nordvpn", "terminator", "guake term", "qbittorrent", "htop",
+        "vim plugins", "gedit plugins", "terminator plugins", "config files",
+        "bash scripts/aliases", "cleanup"
+    ]
     for _ in sections:
         if start_section(_):
             if sh(_):
                 continue
 
 
+    # ─── TUTORIAL FROM TXT ───────────────────────────────────────────────────────────
+    if start_section("guided settings changes"):
+        guided_sections()
+
+
+    # ─── BATCH VSCODE EXTENSIONS ────────────────────────────────────────────────────
+    batch_vs()
+
+
+    # ─── CHROME EXTENSIONS ──────────────────────────────────────────────────────────
+    dl_crx()
+
+
+    # ─── CLEANUP ────────────────────────────────────────────────────────────────────
+    cleanup = [
+        "cp ~/temp_clones/fresh-os/Computer_Usage ~/Desktop/"
+        "sudo rm -r ~/temp_clone"
+    ]
+    for _ in cleanup:
+        os.system(_)
+    print("\n\n\nFINISHED\n\n\n")
 
 
 if __name__ == "__main__":

@@ -142,7 +142,7 @@ def dl_crx():
         if "y" in input(colored("\nAre you sure? [y/n]\n","red")).lower():
             return None
     send_keys(num_extensions)
-
+    
 
 if __name__ == "__main__":
     dl_crx()
