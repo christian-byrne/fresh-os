@@ -2,8 +2,8 @@ import os, time, sys, webbrowser
 from termcolor import colored, cprint
 from pynput.keyboard import Key, Controller
 keyboard = Controller()
-
 from term_gui import term_gui, make_header
+
 
 def ctrl_letter(char):
     char = str(char)
@@ -80,7 +80,6 @@ def open_links(gui):
     }
 
     for color, category in zip((gui["cool color"])*4, extensions.keys()):
-
         if "y" in input(colored(f"\nInstall {category} Extensions? [y/n]\n", color)).lower():
             num_extensions += len(extensions[category])
             for link in extensions[category]:

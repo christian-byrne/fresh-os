@@ -14,22 +14,23 @@ def batch_vs():
         Enables proposed API features for extensions. Can receive one or more extension IDs to enable individually.
     """
 
-    extensions = """kevinkyang.auto-comment-blocks
-    aaron-bond.better-comments
-    ms-vscode.cpptools
-    formulahendry.code-runner
-    exodiusstudios.comment-anchors
-    stackbreak.comment-divider
-    karyfoundation.comment
-    ms-toolsai.jupyter
-    ritwickdey.liveserver
-    ms-python.python
-    maptz.regionfolder
-    igress.python-coding-conventions
-    msjsdiag.debugger-for-chrome"""
+    extensions = [
+        "kevinkyang.auto-comment-blocks",
+        "aaron-bond.better-comments",
+        "ms-vscode.cpptools",
+        "formulahendry.code-runner",
+        "exodiusstudios.comment-anchors",
+        "stackbreak.comment-divider",
+        "karyfoundation.comment",
+        "ms-toolsai.jupyter",
+        "ritwickdey.liveserver",
+        "ms-python.python",
+        "maptz.regionfolder",
+        "igress.python-coding-conventions",
+        "msjsdiag.debugger-for-chrome",
+    ]
 
     import os
-    extensions = extensions.split("\n")
     os.system("export PATH='$PATH:/snap/bin'")
     for _ in extensions:
         os.system("code --install-extension " + _.strip())

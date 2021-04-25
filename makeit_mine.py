@@ -19,7 +19,7 @@ def start_section(section):
             make_header(45, section, boxed=True, character="-", centered=True, tiers=3),
             ["cyan", "magenta", "blue"][random.randint(0,2)]),
             "\n\n",
-            colored("[S]kip this section | [P]roceed")
+            colored("[S]kip this section | [P]roceed", "magenta")
     )
     choice = input("")
     while choice.lower() != "p":
@@ -375,12 +375,15 @@ def make_mine():
 
     # ─── CLEANUP ────────────────────────────────────────────────────────────────────
     cleanup = [
-        "cp ~/temp_clones/fresh-os/Computer_Usage ~/Desktop/"
+        "cp ~/temp_clones/fresh-os/Computer_Usage ~/Desktop/",
         "sudo rm -r ~/temp_clone"
     ]
     for _ in cleanup:
         os.system(_)
-    print("\n\n\nFINISHED\n\n\n")
+    print(colored(
+        make_header(50, "finished", character="~", tiers=1)),
+        "\n\n\n"
+    )
 
 
 if __name__ == "__main__":

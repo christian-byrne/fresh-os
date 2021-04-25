@@ -246,7 +246,6 @@ def get_modules(fresh=True):
         install_module("termcolor")
         install_module("emoji")
         install_module("fire")
-
     module_choices()
 
 

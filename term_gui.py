@@ -1,7 +1,9 @@
 try:
     from termcolor import colored, cprint
 except:
-    pass
+    import os
+    os.system("pip3 install termcolor")
+    from termcolor import colored, cprint
 
 
 class term_gui:
@@ -121,9 +123,9 @@ def make_header(gui_length, text, character="─", centered=False, tiers=3, boxe
 
         # Bottom Tier
         if tiers > 2:
-            ret+= " " + character * gui_length + "\n"
+            ret += " " + character * gui_length + "\n"
             if tiers > 3:
-                for _ in range( ( (tiers - 3) // 2 ) + (tiers - 3) % 2 ):
+                for _ in range( ((tiers - 3) // 2) + (tiers - 3) % 2 ):
                     ret+= " " + character * gui_length + "\n"
             ret += "\n"
         else:
