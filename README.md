@@ -2,6 +2,47 @@
 
 For Bash shells. Automatically installs everything. From CL, pick which items to download based on category or just accept all. Cleans up all unecessary files upon completion.
 
+#### TODO
+
+- deepin color profiles only from the fav-themes.txt 
+- add descriptions to proceed/skip screens for each app
+- review apps and plugins on main ubuntu to update script
+  - terminology
+  - anroid studio
+  - barrier
+  - cheese
+  - cool retro term
+  - cryptowatch
+  - dconf editor
+  - filezilla
+  - genius math tool
+  - glueviz
+  - gpick
+  - hamster
+  - idle
+  - imagemagick
+  - jupyter
+  - komorebi
+  - klavaro
+  - korn shell
+  - meld
+  - mathpix snipping tool
+  - microsoft edge dev
+  - obs
+  - opera
+  - safari dev
+  - plank
+  - shotcut
+  - sublime
+  - texstudio
+  - pandocs
+  - tweaks
+  - vlc
+  - zoom
+  - itop
+
+
+
 #### Automatically Installs:
 
 ###### Apps

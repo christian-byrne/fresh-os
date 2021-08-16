@@ -1,0 +1,13 @@
+#!/bin/bash
+VAR1=$1
+VAR2=" Guide"
+VAR3="$VAR1$VAR2"
+printf "Opening  "
+echo $VAR3
+printf "_____________________________________________________________"
+foo=$(shuf -i1-120 -n400)
+boo=~/bash_scripts/quote_returner 
+$boo $foo
+printf "\n\n"
+nohup gedit ~/Desktop/Guides/"$VAR3" >/dev/null &
+disown

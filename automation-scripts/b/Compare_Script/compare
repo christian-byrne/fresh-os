@@ -1,0 +1,11 @@
+#!/bin/bash
+cd ~/bash_scripts/Compare_Script
+rm test_output.txt
+rm ideal.txt
+cd
+vim ~/bash_scripts/Compare_Script/ideal.txt
+sleep 5
+cd ~/Desktop
+python3 $1 >> ~/bash_scripts/Compare_Script/test_output.txt
+cd
+vim -d ~/bash_scripts/Compare_Script/test_output.txt ~/bash_scripts/Compare_Script/ideal.txt

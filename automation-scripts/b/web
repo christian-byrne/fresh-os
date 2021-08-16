@@ -1,0 +1,7 @@
+#!/bin/bash
+nohup google-chrome >/dev/null &
+disown
+echo $DEVIL1
+foo=$(shuf -i1-300 -n300)
+boo=~/bash_scripts/quote_returner
+$boo $foo

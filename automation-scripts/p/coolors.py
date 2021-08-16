@@ -1,0 +1,7 @@
+import webbrowser
+
+coolors = "https://coolors.co/u/trevor_reznik"
+
+chrome_path =  "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
+
+webbrowser.get(chrome_path).open(coolors)

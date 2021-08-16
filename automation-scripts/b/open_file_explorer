@@ -1,0 +1,6 @@
+#!/bin/bash
+nohup nautilus ~/$1 >/dev/null &
+disown
+foo=$(shuf -i1-120 -n300)
+boo=~/bash_scripts/quote_returner 
+$boo $foo

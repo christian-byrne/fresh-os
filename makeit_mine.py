@@ -4,9 +4,20 @@ from batch_vs_extensions import batch_vs
 from batchdl_py_mods import get_modules
 import random, os
 from term_gui import term_gui, make_header
-from termcolor import colored
-from emoji import emojize
 
+try:
+    from termcolor import colored
+except:
+    try:
+        os.system("pip3 install termcolor")
+    except:
+        os.system("sudo apt-get install python3-pip")
+        os.system("pip3 install termcolor")
+    from termcolor import colored
+try:    
+    from emoji import emojize
+except:
+    os.system("pip3 install emoji")
 
 def start_section(section):
     try:
@@ -44,6 +55,7 @@ def sh(section, commands_only=False):
 
     commands = {
         "repo" : [
+            "sudo apt-get install git",
             "cd",
             "mkdir temp_clone",
             "cd temp_clone",
@@ -342,7 +354,7 @@ def make_mine():
     # ─── PYTHON MODULES ─────────────────────────────────────────────────────────────
     if start_section("python modules"):
         try:
-            get_modules(fresh=False)
+            get_modules(fresh=True)
         except:
             pass
 

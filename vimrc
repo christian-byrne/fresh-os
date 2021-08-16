@@ -23,7 +23,7 @@ Plugin 'xolox/vim-notes'
 Plugin 'rafi/awesome-vim-colorschemes'
 Plugin 'rainglow/vim'
 Plugin 'mswift42/vim-themes'
-Plugin 'chriskempson/base16-vim'
+" Plugin 'chriskempson/base16-vim'
 Plugin 'patstockwell/vim-monokai-tasty'
 Plugin 'connorholyday/vim-snazzy'
 Plugin 'ghifarit53/daycula-vim'
@@ -115,7 +115,7 @@ match Error /\t/
 " :set listchars=tab:__,trail:_,extends:>,precedes:<,nbsp:~
 " :set listchars=tab:__,trail:●,extends:>,precedes:<,nbsp:~
 " :set listchars=tab:__,trail:●,extends:…,precedes:…,space:·
-:set listchars=tab:..
+:set listchars=tab:__
 
 " define highlights groups like "ExtraWhitespace" using :help
 " :match ExtraWhitespace /[^\t]\zs\t\+/
@@ -133,7 +133,7 @@ match Error /\t/
 " Color code system used by Vim/Xterm: https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim
 
 " Change Color Scheme ------
-colorscheme sonokai
+" colorscheme vim-monokai-tasty
 " See all installed schemes: ls -l /usr/share/vim/vim*/colors/
 " Some schemes: pablo, murphy, morning, shine, slate, ron, torte, zellner
 " You can change color schemes at anytime in vi by typing colorscheme followed by

@@ -1,0 +1,7 @@
+#!/bin/bash
+DEVIL1="We Are Not the Same"
+DEVIL2="Remember What They Took From You"
+echo $DEVIL1
+echo $DEVIL2
+nohup firefox >/dev/null &
+disown

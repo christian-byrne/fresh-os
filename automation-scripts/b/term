@@ -1,0 +1,35 @@
+#!/bin/bash
+xdotool key ctrl+shift+f
+xdotool key ctrl+shift+h
+xdotool key ctrl+shift+j
+xdotool key alt+j
+xdotool key ctrl+shift+j
+xdotool key alt+h
+xdotool key ctrl+shift+j
+xdotool key ctrl+shift+h
+xdotool key alt+l
+xdotool key alt+l
+xdotool key alt+k
+xdotool key ctrl+shift+j
+xdotool key alt+h
+xdotool key alt+h --delay 50n
+xdotool key b p y t o p 
+xdotool key KP_Enter
+xdotool key alt+j --delay 50n
+xdotool key p y t h o n 3
+xdotool key KP_Enter
+xdotool key alt+j --delay 50n
+xdotool key g e n i u s
+xdotool key KP_Enter
+xdotool key alt+l --delay 50n
+xdotool key n o t e s
+xdotool key KP_Enter
+xdotool key alt+l 
+xdotool key alt+k --delay 50n
+xdotool key alt+l --delay 50n
+xdotool key g u i d e s
+xdotool key KP_Enter --delay 50n
+xdotool key alt+h --delay 50n
+xdotool key c o m p u s a g e
+xdotool key KP_Enter --delay 50n
+xdotool key alt+j 

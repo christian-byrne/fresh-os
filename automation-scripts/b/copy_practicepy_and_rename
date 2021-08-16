@@ -1,0 +1,11 @@
+#!/bin/bash
+printf "\n"
+printf "Creating Copy of Your Script on Desktop Named:\n"
+echo $1
+printf "\n"
+printf "_____________________________________"
+printf "\n\n"
+foo=$(shuf -i1-120 -n400)
+boo=~/bash_scripts/quote_returner 
+$boo $foo
+cp ~/Desktop/practice.py ~/Desktop/$1.txt -i

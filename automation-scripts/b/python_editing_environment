@@ -1,0 +1,27 @@
+#!/bin/bash
+if [[ $1 = "f" ]]
+then
+	xdotool key ctrl+shift+f
+fi
+sleep .1
+xdotool key ctrl+shift+h
+sleep .1
+xdotool key ctrl+shift+j
+sleep .1
+xdotool key alt+j
+sleep .1
+xdotool key ctrl+shift+j
+sleep .1
+foo=$(shuf -i1-120 -n400)
+boo=~/bash_scripts/quote_returner 
+$boo $foo
+xdotool key p y p r a c t i c e
+xdotool key KP_Enter
+xdotool key alt+j
+sleep .2
+xdotool key p y t h o n 3
+xdotool key KP_Enter
+xdotool key alt+k
+xdotool key alt+l
+xdotool key f u n c t i o n s
+xdotool key KP_Enter
